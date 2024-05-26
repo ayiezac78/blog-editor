@@ -1,0 +1,22 @@
+@import url(./base.css);
+
+mark {
+  background-color: #c3effc;
+  padding: 0.125em 0;
+  border-radius: 0.25em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.tiptap p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #adb5bd;
+  pointer-events: none;
+  height: 0;
+}
+
+.is-active {
+  background-color: #77e68a;
+  border-radius: 0.2rem;
+}
