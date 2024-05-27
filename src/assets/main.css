@@ -1,4 +1,4 @@
-@import url(./base.css);
+@import url(./index.css);
 
 mark {
   background-color: #c3effc;
@@ -17,6 +17,6 @@ mark {
 }
 
 .is-active {
-  background-color: #77e68a;
-  border-radius: 0.2rem;
+  background-color: #cfcfc4;
+  border-radius: 0.1rem;
 }

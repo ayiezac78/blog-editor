@@ -26,13 +26,20 @@
     "@tiptap/starter-kit": "^2.4.0",
     "@tiptap/vue-3": "^2.4.0",
     "axios": "^1.7.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.379.0",
     "pinia": "^2.1.7",
+    "radix-vue": "^1.8.2",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
     "vue": "^3.4.21"
   },
   "devDependencies": {
     "@iconify/vue": "^4.1.2",
     "@rushstack/eslint-patch": "^1.8.0",
     "@tailwindcss/typography": "^0.5.13",
+    "@types/node": "^20.12.12",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vue/eslint-config-prettier": "^9.0.0",
     "autoprefixer": "^10.4.19",
@@ -42,5 +49,6 @@
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.8"
-  }
+  },
+  "packageManager": "pnpm@9.1.2+sha1.217063ce3fcbf44f3051666f38b810f1ddefee4a"
 }
