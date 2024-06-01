@@ -180,7 +180,7 @@ const isSubmitting = ref(false);
 const { toast } = useToast()
 
 const slugString = computed(() => {
-  return title.value.split(' ').join('-').toLowerCase()
+  return title.value.replace(/[^a-zA-Z0-9-]/g, '-').replace(/-+/g, '-').toLowerCase();
 })
 
 const editor = useEditor({
